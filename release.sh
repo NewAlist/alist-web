@@ -16,7 +16,7 @@ cd web-dist
 rm -rf dist
 cp -r ../dist .
 git add .
-git config --local user.email "i@nn.ci"
+git config --local user.email "i@newalist.top"
 git config --local user.name "Noah Hsu"
 git commit --allow-empty -m "upload $version dist files" -a
 git tag -a $version -m "release $version"
