@@ -2,5 +2,5 @@ project_id_env: CROWDIN_PROJECT_ID
 api_token_env: CROWDIN_PERSONAL_TOKEN
 preserve_hierarchy: 1
 files:
-  - source: /main/src/lang/en/*.json
-    translation: /main/src/lang/%locale%/%original_file_name%
+  - source: /src/lang/en/*.json
+    translation: /src/lang/%locale%/%original_file_name%
